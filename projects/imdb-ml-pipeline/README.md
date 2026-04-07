@@ -86,3 +86,10 @@ contributions from other team members
 private datasets or external APIs
 
 All included materials are either my own work or have been cleaned for demonstration purposes.
+
+## Tech Stack
+Python
+Pandas
+NumPy
+XGBoost
+LightGBM
