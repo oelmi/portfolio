@@ -69,7 +69,7 @@ To respect collaboration boundaries, the following are not included:
 - datasets not owned by me
   
 ## Tech Stack
-Python
-PyTorch
-Hugging Face Transformers
-NumPy
+- Python
+- PyTorch
+- Hugging Face Transformers
+- NumPy
