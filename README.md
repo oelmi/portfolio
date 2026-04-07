@@ -33,7 +33,7 @@ This portfolio presents selected projects demonstrating practical experience in 
 - Designed and implemented feature engineering for structured data  
 - Focus: data pipelines, feature design, model performance  
 
-[View project] (./projects/imdb-ml-pipeline)
+[View project](./projects/imdb-ml-pipeline)
 
 ---
 
@@ -61,7 +61,7 @@ This portfolio presents selected projects demonstrating practical experience in 
 - Evaluation using Recall@k, MRR, and F1  
 - Focus: information retrieval, NLP, ranking systems  
 
-[View project](./projects/thesis-implicit-linking)
+[View project](./projects/msc-thesis-implicit-linking)
 
 ---
 
