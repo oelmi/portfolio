@@ -73,3 +73,16 @@ Rather than relying solely on model complexity, carefully designed features allo
 ├── src/
 │   └── feature_engineering.py
 ```
+## Notes on Collaboration and Privacy
+
+This project was developed as part of a university group project.
+
+This repository contains only my individual contributions, specifically focused on feature engineering.
+
+To respect collaboration boundaries and data privacy, the following are not included:
+
+the full group repository
+contributions from other team members
+private datasets or external APIs
+
+All included materials are either my own work or have been cleaned for demonstration purposes.
