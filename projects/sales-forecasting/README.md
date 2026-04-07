@@ -93,9 +93,9 @@ private or restricted datasets
 All included materials are limited to my own work or cleaned versions prepared for portfolio purposes.
 
 ## Tech Stack
-R
-R Markdown
-XGBoost
-LightGBM
-LSTM
-Time series forecasting methods
+- R
+- R Markdown
+- XGBoost
+- LightGBM
+- LSTM
+- Time series forecasting methods
