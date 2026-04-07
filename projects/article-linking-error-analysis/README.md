@@ -83,8 +83,8 @@ To respect collaboration boundaries and data privacy, the following are not incl
 All included code and materials are either my own work or have been cleaned and anonymized for demonstration purposes.
 
 ## Tech Stack
-Python
-Pandas
-NumPy
-scikit-learn
-CatBoost
+- Python
+- Pandas
+- NumPy
+- scikit-learn
+- CatBoost
