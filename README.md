@@ -65,6 +65,13 @@ I build practical machine learning solutions that go beyond model performance, f
 
 ---
 
+### 📈 Bachelor Thesis – Stock Market Volatility
+- Analyzed stock market volatility using statistical and time series methods  
+- Explored relationships between financial indicators and market behavior  
+- Focus: statistical analysis, financial data modeling  
+
+👉 [View Project](./projects/bachelor-thesis-volatility)
+
 ## 🛠 Tech Stack
 
 **Languages & Tools**  
