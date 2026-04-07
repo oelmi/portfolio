@@ -2,48 +2,63 @@
 
 ## Overview
 
-This project focuses on the evaluation of a machine learning system for linking news articles to official statistical publications. The broader system combines lexical and semantic matching methods to rank candidate matches, while this repository highlights my individual contribution: error analysis and model auditing.
+This project focuses on evaluating a machine learning system for linking news articles to official statistical publications. The broader system combines lexical and semantic matching methods to rank candidate matches, while this repository highlights my individual contribution: error analysis and model auditing.
 
-The full group project achieved a strong improvement over the original baseline, increasing AUC from 0.484 to 0.908 and reaching a Success@5 score of 0.927. My work focused on understanding where and why the system still fails, especially in high-confidence error cases.
+The full project significantly improved performance over the original baseline, increasing AUC from 0.484 to 0.908 and achieving a Success@5 score of 0.927. My work focuses on understanding where and why the system still fails, particularly in high-confidence error cases.
+
+---
 
 ## My Contribution
 
-My main contribution was building and analyzing the error analysis pipeline.
+I designed and implemented an error analysis pipeline to evaluate model predictions and identify systematic failure patterns.
 
-I worked on:
-- identifying high-confidence false positives
-- auditing model predictions at topic level
-- mapping outputs to a taxonomy for interpretable error inspection
-- supporting analysis of label noise and systematic mismatch patterns
+Key contributions:
+- Identified high-confidence false positives
+- Audited model predictions at topic level
+- Mapped outputs to a taxonomy for interpretable error inspection
+- Analyzed label noise and dataset inconsistencies
 
-This contribution helped move the project beyond model performance alone and toward understanding dataset quality, failure modes, and practical reliability.
+This work shifts the focus from model performance alone to understanding reliability, failure modes, and data quality.
+
+---
 
 ## Methods
 
-The broader project used a hybrid matching setup with lexical and semantic signals. My analysis pipeline focuses on post-model evaluation.
+The broader system uses a hybrid matching approach combining lexical and semantic signals. My contribution focuses on post-model evaluation.
 
-Key elements used in my contribution:
-- group-aware train/test splitting
-- feature scaling with `MinMaxScaler`
-- `CatBoostClassifier` for prediction scoring
-- topic resolution using taxonomy matching
-- export of structured error outputs for manual inspection
+Key components:
+- Group-aware train/test splitting
+- Feature scaling using `MinMaxScaler`
+- Prediction scoring using `CatBoostClassifier`
+- Topic resolution via taxonomy mapping
+- Structured export of error cases for analysis
 
-The error analysis script inspects model behavior by comparing assigned topics with inferred ground-truth topics and surfacing representative correct and incorrect cases.
+The pipeline evaluates model behavior by comparing predicted and inferred ground-truth topics and surfacing representative correct and incorrect cases.
+
+---
 
 ## Results
 
-The full project showed that the best hybrid setup substantially outperformed the original baseline:
-- Baseline AUC: 0.484
-- Best AUC: 0.908
-- Success@5: 0.927
+The hybrid system achieved strong improvements:
+- Baseline AUC: 0.484  
+- Best AUC: 0.908  
+- Success@5: 0.927  
 
-The error analysis contributed to interpreting these results by showing that some high-confidence mistakes were not purely model failures, but were linked to:
-- inconsistent labels in the dataset
-- semantically similar articles assigned to different topics
-- boilerplate or repeated institutional phrasing that inflated similarity
+The error analysis revealed that many high-confidence errors were not purely model failures, but were caused by:
 
-This made the analysis useful not only for model evaluation, but also for improving trust in the system and identifying data quality issues.
+- Inconsistent labeling in the dataset  
+- Semantically similar articles assigned to different topics  
+- Repeated institutional phring ("boilerplate bias") inflating similarity  
+
+---
+
+## Key Insight
+
+A major finding from this analysis is that some model “errors” actually expose weaknesses in the dataset rather than the model itself.  
+
+This highlights the importance of combining model evaluation with data auditing when building real-world machine learning systems.
+
+---
 
 ## Repository Structure
 
@@ -52,10 +67,6 @@ This made the analysis useful not only for model evaluation, but also for improv
 ├── README.md
 ├── src/
 │   └── error_analysis.py
-├── results/
-│   └── sample_outputs/
-└── assets/
-    └── figures/
 ```
 ## Notes on Collaboration and Privacy
 
