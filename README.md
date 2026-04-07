@@ -24,7 +24,7 @@ This portfolio presents selected projects demonstrating practical experience in 
 - Designed an error analysis pipeline to identify high-confidence failure cases  
 - Focus: model evaluation, data quality, interpretability  
 
-[View project] (./projects/article-linking-error-analysis)
+[View project](./projects/article-linking-error-analysis)
 
 ---
 
@@ -42,7 +42,7 @@ This portfolio presents selected projects demonstrating practical experience in 
 - Identified XGBoost as the best-performing model (RMSE ~2.90)  
 - Focus: forecasting, model comparison, real-world time series data  
 
-[View project] (./projects/sales-forecasting)
+[View project](./projects/sales-forecasting)
 
 ---
 
@@ -51,7 +51,7 @@ This portfolio presents selected projects demonstrating practical experience in 
 - Improved performance through preprocessing and training adjustments  
 - Focus: deep learning, computer vision  
 
-[View project] (./projects/image-classification-vit)
+[View project](./projects/image-classification-vit)
 
 ---
 
@@ -61,7 +61,7 @@ This portfolio presents selected projects demonstrating practical experience in 
 - Evaluation using Recall@k, MRR, and F1  
 - Focus: information retrieval, NLP, ranking systems  
 
-[View project] (./projects/thesis-implicit-linking)
+[View project](./projects/thesis-implicit-linking)
 
 ---
 
@@ -70,7 +70,7 @@ This portfolio presents selected projects demonstrating practical experience in 
 - Investigated relationships between financial indicators and market behavior  
 - Focus: statistical analysis, financial data modeling  
 
-[View project] (./projects/bachelor-thesis-volatility)
+[View project](./projects/bachelor-thesis-volatility)
 
 ---
 
