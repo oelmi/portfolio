@@ -48,7 +48,7 @@ The error analysis revealed that many high-confidence errors were not purely mod
 
 - Inconsistent labeling in the dataset  
 - Semantically similar articles assigned to different topics  
-- Repeated institutional phring ("boilerplate bias") inflating similarity  
+- Repeated institutional phrasing ("boilerplate bias") inflating similarity  
 
 ---
 
