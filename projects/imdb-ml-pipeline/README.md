@@ -81,15 +81,15 @@ This repository contains only my individual contributions, specifically focused 
 
 To respect collaboration boundaries and data privacy, the following are not included:
 
-the full group repository
-contributions from other team members
-private datasets or external APIs
+- the full group repository
+- contributions from other team members
+- private datasets or external APIs
 
 All included materials are either my own work or have been cleaned for demonstration purposes.
 
 ## Tech Stack
-Python
-Pandas
-NumPy
-XGBoost
-LightGBM
+- Python
+- Pandas
+- NumPy
+- XGBoost
+- LightGBM
