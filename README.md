@@ -1,94 +1,100 @@
-# 🚀 Omar Elmi – Data Science Portfolio
+# Omar Elmi – Data Science Portfolio
 
-Master’s student in Data Science at the University of Amsterdam, with a focus on machine learning, information retrieval, and data-driven systems.
+Master’s student in Data Science at the University of Amsterdam, specializing in machine learning, information retrieval, and data-driven systems.
 
-I build practical machine learning solutions that go beyond model performance, focusing on data quality, evaluation, and real-world applicability.
+This portfolio presents selected projects demonstrating practical experience in building, evaluating, and improving machine learning systems, with a focus on data quality, model performance, and real-world applicability.
 
 ---
 
-## 🧠 Core Areas
+## Core Areas
 
-- Machine Learning & Model Evaluation  
-- Information Retrieval & NLP  
-- Data Engineering & Pipelines  
+- Machine Learning and Model Evaluation  
+- Information Retrieval and Natural Language Processing  
+- Data Engineering and Pipelines  
 - Time Series Forecasting  
 - Computer Vision  
 
 ---
 
-## 📂 Featured Projects
+## Projects
 
-### 📰 Article Linking System (Error Analysis & ML Evaluation)
-- Hybrid retrieval system (lexical + semantic models)
-- Improved AUC from **0.48 → 0.908**
-- Designed error analysis pipeline to detect high-confidence failures
+### Article Linking System (Error Analysis and Model Evaluation)
+- Developed a hybrid retrieval system combining lexical and semantic methods  
+- Improved AUC from 0.48 to 0.908  
+- Designed an error analysis pipeline to identify high-confidence failure cases  
 - Focus: model evaluation, data quality, interpretability  
 
-👉 [View Project](./projects/article-linking-error-analysis)
+View project: ./projects/article-linking-error-analysis
 
 ---
 
-### 🎬 IMDB Machine Learning Pipeline
-- End-to-end ML pipeline for movie rating prediction
-- Feature engineering for structured data
+### IMDB Machine Learning Pipeline
+- Built an end-to-end machine learning pipeline for movie rating prediction  
+- Designed and implemented feature engineering for structured data  
 - Focus: data pipelines, feature design, model performance  
 
-👉 [View Project](./projects/imdb-ml-pipeline)
+View project: ./projects/imdb-ml-pipeline
 
 ---
 
-### 📊 Sales Forecasting (Time Series)
-- Compared statistical, ML, and deep learning models
-- XGBoost achieved best performance (**RMSE ~2.90**)
-- Focus: forecasting, model comparison, real-world data  
+### Sales Forecasting (Time Series)
+- Compared statistical, machine learning, and deep learning approaches  
+- Identified XGBoost as the best-performing model (RMSE ~2.90)  
+- Focus: forecasting, model comparison, real-world time series data  
 
-👉 [View Project](./projects/sales-forecasting)
+View project: ./projects/sales-forecasting
 
 ---
 
-### 🧠 Image Classification (Vision Transformer)
-- Implemented and fine-tuned Vision Transformer model
-- Improved performance through preprocessing and tuning  
+### Image Classification (Vision Transformer)
+- Implemented and fine-tuned a Vision Transformer model  
+- Improved performance through preprocessing and training adjustments  
 - Focus: deep learning, computer vision  
 
-👉 [View Project](./projects/image-classification-vit)
+View project: ./projects/image-classification-vit
 
 ---
 
-### 🎓 MSc Thesis (Ongoing)
-- Retrieval + reranking system for implicit references in parliamentary data
-- Models: BM25, SBERT, cross-encoder
-- Metrics: Recall@k, MRR, F1  
+### MSc Thesis (Ongoing)
+- Developing a retrieval and reranking system for implicit reference detection in parliamentary data  
+- Methods include BM25, dense retrieval, and neural reranking  
+- Evaluation using Recall@k, MRR, and F1  
 - Focus: information retrieval, NLP, ranking systems  
 
-👉 [View Project](./projects/thesis-implicit-linking)
+View project: ./projects/thesis-implicit-linking
 
 ---
 
-### 📈 Bachelor Thesis – Stock Market Volatility
+### Bachelor Thesis – Stock Market Volatility
 - Analyzed stock market volatility using statistical and time series methods  
-- Explored relationships between financial indicators and market behavior  
+- Investigated relationships between financial indicators and market behavior  
 - Focus: statistical analysis, financial data modeling  
 
-👉 [View Project](./projects/bachelor-thesis-volatility)
+View project: ./projects/bachelor-thesis-volatility
 
-## 🛠 Tech Stack
+---
 
-**Languages & Tools**  
+## Technical Skills
+
+**Languages and Tools**  
 - Python, SQL, R  
 
 **Machine Learning**  
 - Scikit-learn, XGBoost, CatBoost, PyTorch  
 
-**NLP & Retrieval**  
+**NLP and Retrieval**  
 - Sentence-BERT, BM25, spaCy  
 
 **Data Processing**  
 - Pandas, NumPy, DuckDB  
 
+**MLOps / Engineering**  
+- Docker  
+- Jenkins   
+
 ---
 
-## 📫 Contact
+## Contact
 
-- LinkedIn: https://www.linkedin.com/in/omar-elmi-7798052bb/ 
-- Email: omarelmi850@gmail.com
+LinkedIn: https://www.linkedin.com/in/omar-elmi-7798052bb/  
+Email: omarelmi850@gmail.com  
